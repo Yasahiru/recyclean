@@ -1,0 +1,181 @@
+
+.pub{
+    padding:11px;
+    color:#fff;
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lora', serif;
+    background-color:rgb(86, 220, 86);
+    padding:30px;
+}
+
+ .slogon{
+    color:rgb(86, 220, 86);
+    font-weight:bold;
+}
+
+#contt{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lora', serif;
+    font-weight:bold;
+}
+
+.continure {
+    width: 50vw;
+    /* border: 1px dashed red; */
+    /* height: 100px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 0 0 5vw;
+    text-align:justify;
+}
+
+.continure .p1 span{
+    color:rgb(86, 220, 86);
+    font-size:55px;
+}
+.continure h1{
+    font-size: 3.5em;
+}
+
+.continure p{
+    font-size: 1.5em;
+    text-align: justify;    
+}
+
+.p1{
+    width:65vw;
+    font-weight:bold;
+}
+.p2{
+    width:65vw;
+    font-weight:bold;
+    text-indent:25px;
+}
+.p2 .slogon{
+    font-size:38px;
+}
+.imgServ{
+    width: 30vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+#h1{
+    text-align:center;
+    font-size:65px;
+    color:#000;
+    transition:200ms;
+}
+#h1:hover{
+    color:rgb(86, 220, 86);
+    transform: scale(1.09);
+}
+.img{
+    display:flex;
+    justify-content:space-between;
+}
+img{
+    transition:200ms;
+}
+.img img:hover{
+    transform: scale(1.09);
+}
+
+hr{
+    width:1290px;
+    height:5px;
+    background-color:rgb(0,0,0);
+}
+
+#Contactez-Nous{
+    display:flex;
+    justify-content:space-evenly;
+}
+.footer{
+    background-color:gainsboro;
+}
+.footer hr{
+    display:flex;
+    justify-content:space-evenly;
+    height:100px;
+    width:5px;
+    background-color:transparent;
+}
+.right{
+    width:650px;
+    line-height:23px;
+    text-align:justify;
+    text-indent:15px;
+    text-align:center;
+    padding-top:25px;
+}
+.left{
+    padding-top:25px;
+    line-height:25px;
+    text-align:center;
+    text-align:justify;
+    padding: 15px 50px ;
+}
+.footer h1{
+    color:#000;
+    padding:5px 9px;
+}
+.btn{
+    justify-content:right;
+    background-color:#FFAF13;
+    border-radius:15px;
+    height:60px;
+    width:40px;
+    font-weight:bold;
+    cursor: pointer;
+}
+#donate{
+    display:flex;
+    justify-content:space-around;
+    background-color:aliceblue;
+    align-items:center;
+}
+
+
+
+
+
+.partdon {
+    /* border: 1px solid; */
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top:50px;
+}
+
+#don {
+    background-color: rgb(86, 220, 86);
+    border: none ;
+    border-radius: 16px;
+    padding: 3px;
+    height: 36px;
+    width: 140px;
+    font-size: 18px;
+    font-weight:bold;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+#don:hover {
+    opacity: 0.8;
+    cursor : pointer;
+    transform: scale(1.05);
+}
+
+#don:active {
+    background-color: rgb(212, 255, 212);
+    color: rgb(86, 220, 86);
+    border: 1px black solid;
+}
+.participer{
+    display:flex;
+}
